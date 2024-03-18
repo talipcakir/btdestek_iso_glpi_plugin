@@ -1,0 +1,29 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-23 11:11+0300\n"
+"PO-Revision-Date: 2024-02-23 11:11+0300\n"
+"Last-Translator: Talip CAKIR\n"
+"Language-Team: \n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.2\n"
+
+#: SubSolutionType.php:12, SubSolutionType.php:13
+#: hook.php:34
+msgid "Sub Solution Types"
+msgstr "Alt Çözüm Türleri"
+
+#: TicketSubSolution.php:27,
+msgid "Ticket Sub Solutions Type"
+msgstr "Destek Kaydı Çözüm Alt Türü"
+

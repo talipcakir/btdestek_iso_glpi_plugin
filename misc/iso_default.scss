@@ -1,0 +1,214 @@
+//$secondary: #dee2e6;
+//$secondary-fg: #6c757d;
+//$mainmenu_bg: #e7f3fc;
+//$primary: #117521;
+$body-bg-color: #f0f0f4;
+$primary: #5897fb;
+$primary-button: #0089a3;
+$primary-button-color: #fff;
+//$secondary: #d8d6e6;
+$secondary: #6c757d;
+$secondary-fg: #042213;
+$link-color: #459436;
+$mainmenu_bg: #fff;
+$mainmenu_fg: #042213;
+
+$logo-light: "../pics/logos/BT_Destek_Logo_Yeni.png" !default;
+$logo-light-reduced: "../pics/logos/BT_Destek_Logo_Yeni_2.png" !default;
+$logo-light-login: "../pics/logos/BT_Destek_Logo_Yeni.png" !default;
+$logo: $logo-light;
+$logo_reduced: $logo-light-reduced;
+
+$menu_color: #042213;
+$head_bg_color: #e7f3fc;
+$white_fg: #fff;
+@import "../includes/palette_light";
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+// Scrollbar
+::-webkit-scrollbar {
+  width: 10px !important;
+
+  &-thumb {
+    border-radius: 0 !important;
+    background: $primary-button !important;
+  }
+
+  &-track {
+    background: $secondary !important;
+  }
+}
+
+select::-webkit-scrollbar {
+  width: 5px !important;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: $body-bg-color;
+}
+
+.btn.btn-primary {
+  background-color: $primary-button;
+  color: $primary-button-color;
+}
+
+.btn.btn-secondary {
+  .ti {
+    color: $white_fg;
+  }
+}
+
+.btn.btn-outline-secondary {
+  color: $link-color;
+
+  &:hover {
+    color: $white_fg;
+
+    .ti {
+      color: $white_fg;
+    }
+  }
+}
+
+// Logos
+.page {
+  .glpi-logo {
+    height: 50px;
+    width: 180px;
+    background-size: 170px 50px;
+  }
+
+  &-anonymous {
+    .glpi-logo {
+      height: 69px;
+      width: 250px;
+      background-size: 250px 69px;
+      --logo: url("../pics/logos/BT_Destek_Logo_Yeni.png");
+    }
+  }
+}
+
+// Sidebar Navigation
+.sidebar {
+  #navbar-menu {
+    .nav-link.show + .dropdown-menu {
+      background-color: $mainmenu_bg;
+    }
+
+    .nav-item:hover .nav-link,
+    .nav-item .nav-link.show + .dropdown-menu .dropdown-item.active,
+    .nav-item .nav-link.active + .dropdown-menu .dropdown-item:hover,
+    .nav-item .nav-link.show + .dropdown-menu .dropdown-item:hover {
+      background-color: $head_bg_color;
+      color: $menu_color;
+    }
+
+    .nav-item .nav-link.show + .dropdown-menu {
+      background-color: transparent;
+    }
+  }
+
+  .navbar,
+  .text-wrap,
+  .menu-label {
+    font-size: 15px;
+    color: $menu_color;
+    font-weight: 500;
+  }
+
+  //Sidebar > Icons
+  .ti, .faw {
+    font-size: 22px;
+    color: $link-color;
+  }
+
+  .fab, .fas {
+    font-size: 18px;
+    color: $link-color;
+  }
+
+}
+
+@media (min-width: 992px) {
+  body.navbar-collapsed .sidebar #navbar-menu .nav-item .nav-link + .dropdown-menu {
+    background-color: $mainmenu_bg;
+    color: $menu_color;
+  }
+}
+
+header.navbar {
+  background-color: $head_bg_color;
+  color: $mainmenu_fg;
+
+  .breadcrumb, a {
+    .ti, .faw {
+      font-size: 1.50em;
+      color: $link-color;
+    }
+
+    .fab, .fas {
+      font-size: 1.15em;
+      color: $link-color;
+    }
+  }
+}
+
+.navigationheader {
+  .dropdown-item {
+    i {
+      color: $link-color;
+    }
+
+    color: $mainmenu_fg
+  }
+}
+
+.dropdown-item.active {
+  color: $link-color;
+}
+
+.dashboard .main-label {
+  font-size: 1.15em;
+}
+
+.dashboard.mini {
+  margin-bottom: 0 !important;
+
+  .grid-stack-item {
+    min-height: 78px !important;
+  }
+}
+
+.dashboard .grid-stack .grid-stack-item .grid-stack-item-content {
+  min-height: 30px;
+}
+
+.list-group-item {
+  background-color: $mainmenu_bg;
+
+  .ti, .faw {
+    font-size: 1.50em;
+    color: $link-color;
+  }
+
+  .fab, .fas {
+    font-size: 1.15em;
+    color: $link-color;
+  }
+
+  &:hover {
+    background-color: $head_bg_color;
+    color: $menu_color;
+  }
+}
+
+.entity_tree .fancytree-selected {
+  background-color: $head_bg_color;
+}
+
+// Form
+#plugin_formcreator_form .form-group .form_field .btn-group,
+#plugin_formcreator_form .form-group .form_field .select2-container{
+  width: 100%;
+}

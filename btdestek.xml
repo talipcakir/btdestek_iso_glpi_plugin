@@ -1,0 +1,42 @@
+<root>
+      <name>Btdestek</name>
+      <key>btdestek</key>
+      <state>stable</state>
+      <logo>https://www.iso.org.tr/file/ISO-logo_1280-146.jpg</logo>
+      <description>
+         <short>
+            <en>Istanbul Chamber of Industry is a special plugin for IT support.</en>
+            <tr>İstanbul Sanayi Odası BT Destek için özel eklentidir.</tr>
+         </short>
+         <long>
+            <en>This plugin GLPI system is a plugin to convert the Istanbul Chamber of Industry to IT support structure</en>
+            <tr>Bu eklenti GLPI sistemini İstanbul Sanayi Odası BT Destek yapısına dönüştürmek için oluşturulmuş bir eklentidir.</tr>
+         </long>
+      </description>
+      <homepage>https://github.com/</homepage>
+      <download>https://github.com/</download>
+      <issues>https://github.com/</issues>
+      <readme>https://raw.githubusercontent.com/</readme>
+      <authors>
+         <author>Talip ÇAKIR</author>
+      </authors>
+      <versions>
+         <version>
+            <num>0.0.1</num>
+            <compatibility>~10.0.0</compatibility>
+         </version>
+      </versions>
+      <langs>
+         <lang>en_GB</lang>
+         <lang>tr_TR</lang>
+      </langs>
+      <license>GPL v2+</license>
+      <tags>
+         <en>
+            <tag>itsupport</tag>
+         </en>
+         <tr>
+            <tag>btdestek</tag>
+         </tr>
+      </tags>
+</root>

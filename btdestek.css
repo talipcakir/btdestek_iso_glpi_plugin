@@ -1,0 +1,139 @@
+@import "../../css/includes/_palette_light.scss";
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+::-webkit-scrollbar {
+  width: 10px !important;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 0 !important;
+  background: #a30000 !important;
+}
+::-webkit-scrollbar-track {
+  background: #7d6c6c !important;
+}
+select::-webkit-scrollbar {
+  width: 5px !important;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f0f0 !important;
+}
+.btn.btn-primary {
+  background-color: #a30000 !important;
+  color: #fff !important;
+}
+.btn.btn-secondary .ti {
+  color: #fff !important;
+}
+.btn.btn-outline-secondary {
+  color: #ed1c24 !important;
+}
+.btn.btn-outline-secondary:hover {
+  color: #fff !important;
+}
+.btn.btn-outline-secondary:hover .ti {
+  color: #fff !important;
+}
+body aside.navbar .navbar-brand .glpi-logo {
+  height: 50px !important;
+  width: 180px !important;
+  background-size: 170px 50px !important;
+  background: url("pics/Logo-170x52.png") no-repeat !important;
+}
+.page .glpi-logo {
+  height: 50px !important;
+  width: 180px !important;
+  background-size: 170px 50px !important;
+  background: url("pics/Logo-170x52.png") no-repeat !important;
+}
+.sidebar #navbar-menu .nav-link.show + .dropdown-menu {
+  background-color: #fff !important;
+}
+.sidebar #navbar-menu .nav-item:hover .nav-link, .sidebar #navbar-menu .nav-item .nav-link.show + .dropdown-menu .dropdown-item.active, .sidebar #navbar-menu .nav-item .nav-link.active + .dropdown-menu .dropdown-item:hover, .sidebar #navbar-menu .nav-item .nav-link.show + .dropdown-menu .dropdown-item:hover {
+  background-color: #fce7e7 !important;
+  color: #042213 !important;
+}
+.sidebar #navbar-menu .nav-item .nav-link.show + .dropdown-menu {
+  background-color: transparent !important;
+}
+.sidebar .ti, .sidebar .faw {
+  font-size: 22px !important;
+  color: #ed1c24 !important;
+}
+.sidebar .fab, .sidebar .fas {
+  font-size: 18px !important;
+  color: #ed1c24 !important;
+}
+@media (min-width: 992px) {
+  body.navbar-collapsed .sidebar #navbar-menu .nav-item .nav-link + .dropdown-menu {
+    background-color: #fff !important;
+    color: #042213 !important;
+  }
+}
+header.navbar {
+  background-color: #fce7e7 !important;
+  color: #042213 !important;
+}
+header.navbar .breadcrumb .ti, header.navbar a .ti, header.navbar .breadcrumb .faw, header.navbar a .faw {
+  font-size: 1.5em !important;
+  color: #ed1c24 !important;
+}
+header.navbar .breadcrumb .fab, header.navbar a .fab, header.navbar .breadcrumb .fas, header.navbar a .fas {
+  font-size: 1.15em !important;
+  color: #ed1c24 !important;
+}
+.navigationheader .dropdown-item {
+  color: #042213 !important;
+}
+.navigationheader .dropdown-item i {
+  color: #ed1c24 !important;
+}
+.dropdown-item.active {
+  color: #ed1c24 !important;
+}
+.dashboard .main-label {
+  font-size: 1.15em !important;
+}
+.dashboard.mini {
+  margin-bottom: 0 !important;
+}
+.dashboard.mini .grid-stack-item {
+  min-height: 78px !important;
+}
+.dashboard .grid-stack .grid-stack-item .grid-stack-item-content {
+  min-height: 30px !important;
+}
+.list-group-item {
+  background-color: #fff !important;
+}
+.list-group-item .ti, .list-group-item .faw {
+  font-size: 1.5em !important;
+  color: #ed1c24 !important;
+}
+.list-group-item .fab, .list-group-item .fas {
+  font-size: 1.15em !important;
+  color: #ed1c24 !important;
+}
+.list-group-item:hover {
+  background-color: #fce7e7 !important;
+  color: #042213 !important;
+}
+.entity_tree .fancytree-selected {
+  background-color: #fce7e7 !important;
+}
+#plugin_formcreator_form .form-group .form_field .btn-group, #plugin_formcreator_form .form-group .form_field .select2-container {
+  width: 100% !important;
+}
+.sidebar, .topbar {
+  background-color: #fff !important;
+  font-size: 15px !important;
+  color: #042213 !important;
+  font-weight: 500 !important;
+}
+.sidebar .navbar, .sidebar .text-wrap, .sidebar .menu-label {
+  font-size: 15px !important;
+  color: #042213 !important;
+  font-weight: 500 !important;
+}
+table a {
+  color: #b50000 !important;
+}
